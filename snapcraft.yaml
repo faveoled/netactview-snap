@@ -30,7 +30,7 @@ parts:
       - dmz-cursor-theme
       - light-themes
       - adwaita-icon-theme
-      - gnome-themes-standard
+      # - gnome-themes-standard
       - shared-mime-info
       - libgtk2.0-0
       - libgdk-pixbuf2.0-0
@@ -38,7 +38,7 @@ parts:
       - libgtk2.0-bin
       - unity-gtk2-module
       - locales-all
-      - libappindicator1
+      # - libappindicator1
       - xdg-user-dirs
       - ibus-gtk
       - libibus-1.0-5
