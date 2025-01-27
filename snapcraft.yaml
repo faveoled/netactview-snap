@@ -10,8 +10,9 @@ license: GPL-2.0
 icon: snap/gui/netactview.png
 version: 0.6.4
 
-architectures:
-  - build-on: amd64
+platforms:
+  amd64:
+    build-on: [amd64]
 
 parts:
 
@@ -47,8 +48,6 @@ parts:
     source: debs/netactview_0.6.4-1_amd64.deb
     source-type: deb
     stage-packages:
-      - libgnome-2-0
-      - libgnomevfs2-0
       - libgtk2.0-0
       - libgtop-2.0-11
       - libpango-1.0-0
@@ -74,7 +73,6 @@ apps:
       - opengl
       - removable-media
       - network-observe
-      - gconf
       - system-observe
       - netlink-audit
       - hostname-control
