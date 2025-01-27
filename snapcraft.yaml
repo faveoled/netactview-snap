@@ -5,7 +5,7 @@ description: |
 
 grade: stable
 confinement: strict
-base: core18
+base: core24
 license: GPL-2.0
 icon: snap/gui/netactview.png
 version: 0.6.4
